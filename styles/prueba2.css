@@ -1,0 +1,191 @@
+body {
+  border: 0px;
+  margin: 0px;
+  max-width: 800px;
+  margin: auto;
+  background-color:grey;
+  font-family: 'Roboto', sans-serif;
+}
+
+/* link properties */
+
+a:link {
+  color:#f9faf8
+}
+
+a:hover {
+  color:rgb(72, 180, 184)
+}
+
+/* rounded images properties */
+
+img {
+  border-radius: 5%;
+      }
+
+/* navbar */
+
+.header, .links {
+  background-color: #700013;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 28px;
+  color: #f9faf8;
+  justify-items: flex-start;
+  margin: 15px;
+  font-weight: bolder;
+}
+
+.links-header {
+display: flex;
+justify-content: space-between;
+}
+
+.number1, .number2, .number3 {
+  margin: 18px;
+}
+
+/* For the tex below the navbar */
+
+.textandimage {
+  display: flex;
+  justify-content: center;
+  background-color: #a7031e;
+  color: #f9faf8;
+  
+}
+
+.threetextelements {
+  margin-left: 25px;
+  margin-top: 25px;
+  
+}
+
+.maintext {
+  display: flex;
+  font-size: 45px;
+  font-weight: bolder;
+  /* padding: 10px;; */
+  
+}
+
+.pizzalines {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+}
+
+.buymepizza {
+  display: flex;
+  justify-content: center;
+  padding-top: 25px;
+
+}
+
+.buymepizza2 {
+
+  width: 150px;
+  height: auto;
+}
+
+.papajohnsimage {
+margin: 10px;
+border: 0;
+/* padding: 5px; */
+
+}
+
+/* This is the for the third part of the site */
+
+.squareboxes {
+background-color: #2d8f78;
+color: #f9faf8;
+}
+
+.randomtext  {
+  padding-top: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.emptysquares {
+  display: flex;
+  justify-content: space-evenly;  
+}
+
+.square1box, .square2box, .square3box, .square4box   {
+  padding: 75px;
+  border-radius: 30px;
+  background: #ffffff;
+  
+}
+
+.textsquares {
+  display: flex;
+  justify-content: space-evenly;
+
+}
+
+.square1,.square2, .square3, .square4  {
+  padding: 35px;
+  text-align: center;
+}
+
+/* Quote (fourth) part of the site */
+
+.quote {
+ background-color: darkslategrey;
+ color: aliceblue;
+ padding: 50px;
+ text-align: center;
+ 
+}
+
+.text {
+  font-size: 55px;
+  font-weight: bolder;
+
+}
+
+.citation {
+  font-style: italic;
+  padding-top: 25px;
+}
+
+/* Footer specs*/
+
+.footer {
+
+  display: flex;
+  background-color: #2d8f78;
+  justify-content:space-evenly;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: #f9faf8;
+}
+
+.textone {
+
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.texttwo {
+  font-size: 18px;
+
+}
+
+.footersignup {
+  font-size: 24px; 
+  font-weight: bolder;
+  border-radius: 50px;
+  width: 180px;
+  height: 45px;
+ 
+}
