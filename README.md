@@ -1,2 +1,2 @@
 # odin-landing-page
-Homework based on flex
+Homework for The Odin Project based on using flex as the structure model
